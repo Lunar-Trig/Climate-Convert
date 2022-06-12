@@ -1,0 +1,89 @@
+*{
+    margin:0;
+}
+
+header{
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    color:rgb(30, 161, 212);
+}
+
+small{
+    color:rgb(30, 161, 212);
+    font-family: 'Fredoka One', cursive;
+    font-weight: 700;
+    font-size: 1em;
+    position: relative;
+    top:35em;
+}
+
+
+ul{
+    display: inline-flex;
+    list-style: none;
+    margin-left: 0.4em;
+}
+
+a{
+    color:rgb(30, 161, 212);
+    font-size: 1.3em;
+}
+
+a:hover{
+    color:rgb(150, 233, 25);
+}
+
+#header-title-span{
+    color:rgb(150, 233, 25);
+}
+
+#header-title{
+    margin-left: 1em;
+}
+
+
+#header-nav-list-item-quiz, #header-nav-list-item-l{
+    margin-right: 2em;
+}
+
+.sixth-slideshow{
+    max-width: 100%;
+    font-family: 'Fredoka One', cursive;
+    position: relative;
+    top:2em;
+}
+
+.sxs-text{
+    background-color: rgb(150, 233, 25);
+    font-family: 'Fredoka One', cursive;
+    color:rgb(30, 161, 212);
+    text-align: center;
+    width:92.80%;
+    padding:4.3em;
+    animation-name: pullIn; 
+    animation-duration: 4s; 
+    animation-fill-mode: forwards; 
+    animation-iteration-count: 1;
+    position: relative;
+}
+
+@keyframes pullIn{ 
+    0%{bottom: -124em;} 
+    100%{bottom:-11em;} 
+}
+
+#sxs-heading{
+    font-size: 2.3em;
+}
+
+#sxs-description{
+    font-size: 1.5em;
+}
+
+@media screen and (max-width:920px){
+    #sxs-description{
+        font-size: 1.2em;
+        position: relative;
+        right:1.8em;
+    }
+}

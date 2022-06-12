@@ -1,0 +1,185 @@
+*{
+    margin:0;
+    padding:0;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+small{
+    color:rgb(30, 161, 212);
+    font-family: 'Fredoka One', cursive;
+    font-weight: 700;
+    font-size: 1em;
+    position: relative;
+    top:2em;
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+    color:rgb(30, 161, 212);
+}
+
+a{
+    color:rgb(30, 161, 212);
+    margin-right: 3em;
+    text-align: center;
+}
+
+button{
+    background-color: white;
+    border: white;
+}
+
+.first-slideshow{
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top:17em;
+    left:0.2em;
+    font-family: 'Fredoka One', cursive;
+}
+
+.fs-text{
+    height:27em;
+    animation-name: textColorChange;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+
+#fs-title-span{
+    color:rgb(150, 233, 25);
+}
+
+@keyframes textColorChange{
+  0%{color:white}
+  25%{color:rgb(154, 202, 221)}
+  50%{color: rgb(119, 205, 240);}
+  75%{color: rgb(89, 190, 230);}
+  100%{color: rgb(30, 161, 212);}
+}
+
+#fs-title{
+    font-size: 8em;
+}
+
+#fs-description{
+    font-size: 3em;
+    padding-bottom: 0.5em;
+}
+
+#fs-title-img{
+    width:232px;
+    padding:0;
+}
+
+
+.fs-switch-btn{
+    animation-name: pushIn;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    position: relative;
+    top:5em;
+}
+
+@keyframes pushIn {
+    0%{margin-left:-112em;}
+    100%{margin-right:169px;}
+}
+
+
+#fs-btn:hover{
+    cursor: pointer;
+}
+
+#fs-btn-icon{
+    background-color:rgb(150, 233, 25);
+    color:white;
+    padding: 0.2em 0.4em;
+    font-size: 5.6em;
+    border-radius: 0.5em;
+}
+
+#fs-btn-text{
+    font-size: 1.6em;
+    font-weight: 700;
+    color: rgb(30, 161, 212);
+    font-family: 'Fredoka One', cursive;
+    position: relative;
+    bottom:1rem;
+    right:1em;
+    text-decoration: underline solid 2.5px;
+}
+
+.second-slideshow{
+    visibility: hidden;
+    font-family: 'Fredoka One', cursive;
+    position: relative;
+    top:-24em;
+}
+
+.ss-head{
+    max-width: 100%;
+    text-align: center;
+}
+
+#ss-title{
+    font-size: 8em;
+    color: rgb(30, 161, 212);
+    position: relative;
+    top:-0.2em;
+}
+
+#ss-title-img{
+    width:234px;
+}
+
+#ss-title-span{
+    color: rgb(150, 233, 25);
+}
+
+.ss-nav-list{
+    max-width: 80%;
+    font-size: 3em;
+    position: relative;
+    left:5.4em;
+}
+
+
+a:hover{
+    color:rgb(150, 233, 25);
+}
+
+.third-slideshow{
+    visibility: hidden;
+}
+
+@media screen and (max-width:920px){
+    #fs-title,#ss-title{
+        font-size: 4em;
+    }
+
+    #fs-title-img,#ss-title-img{
+        width:121px;
+    }
+
+    #fs-description,#ss-description{
+        font-size: 2em;
+    }
+
+    #fs-btn-icon{
+        font-size: 4em;
+    }
+
+    .fs-switch-btn{
+        position: relative;
+        top:-4em;
+    }
+
+    .ss-nav-list{
+        font-size: 2em;
+    }
+}

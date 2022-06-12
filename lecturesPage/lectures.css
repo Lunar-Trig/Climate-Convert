@@ -1,0 +1,159 @@
+*{
+    margin: 0%;
+    font-family: 'Fredoka One', cursive;
+}
+
+header{
+    text-align: center;
+    color:rgb(30, 161, 212);
+}
+
+ul{
+    display: inline-flex;
+    list-style: none;
+    margin-left: 0.4em;
+}
+
+a{
+    color:rgb(30, 161, 212);
+    font-size: 1.3em;
+}
+
+p{
+    max-width:45em;
+}
+
+i{
+    color:white;
+    font-size: 4em;
+    text-align: center;
+    position: relative;
+    right:5em;
+    bottom:2.4em;
+}
+
+i:hover{
+    cursor: pointer;
+}
+
+#header-title{
+    margin-left: 1em;
+}
+
+#header-title-img:hover{
+    cursor: pointer;
+}
+
+a:hover{
+    color:rgb(150, 233, 25);
+}
+
+#header-title-span{
+    color:rgb(150, 233, 25);
+}
+
+#header-nav-list-item-quiz, #header-nav-list-item-l{
+    margin-right: 2em;
+}
+
+.showcase{
+    margin-top: 3em;
+}
+
+.showcase-items{
+    margin-bottom: 11em;
+}
+
+.showcase-item-1,.showcase-item-2,.showcase-item-3{
+    margin: 2.5em !important;
+}
+
+#showcase-item-1-image,#showcase-item-2-image{
+    width:532px;
+}
+
+#showcase-item-3-image{
+    width: 200px;
+    height: 120px;
+}
+
+#showcase-item-1-link{
+    position: relative;
+    right:25.8em;
+
+}
+
+#showcase-item-2-link{
+    position: relative;
+    right:25.8em;
+}
+
+#showcase-item-3-link{
+    position: relative;
+    right:9.9em;
+}
+
+.showcase-videos{
+    background-color: #f8f8f8;
+    display: flex;
+    -ms-flex-align: center;
+   text-align: center;
+   padding-bottom: 1em;
+   padding-top:2em;
+}
+
+.showcase-video-1,.showcase-video-2,.showcase-video-3{
+    position: relative;
+    right:6em;
+}
+
+.showcase-videos-title{
+    position: relative;
+    bottom:5.7em;
+    left:28em;
+    width:17.9em;
+}
+
+#showcase-video-1-image{
+    width:565px;
+    height: 315px;
+}
+
+small{
+    color:rgb(30, 161, 212);
+    font-family: 'Fredoka One', cursive;
+    font-weight: 700;
+    font-size: 1em;
+}
+
+@media screen  and (max-width:1530px){
+    .showcase-videos{
+        display: block;
+        text-align: center;
+    }
+
+    .showcase-video-1,.showcase-video-2,.showcase-video-3{
+        position: relative;
+        left:2em;
+        text-align: center;
+        margin-bottom: 1em;
+        width:33em;
+    }
+
+    .showcase-videos p{
+        width:31em;
+    }
+
+    .showcase-video-3{
+        margin-right: 5rem;
+    }
+
+    .showcase-videos-title{
+        margin-left: -28em;
+    }
+
+    #showcase-item-1-image,#showcase-item-2-image{
+        width:420px;
+    }
+
+}
