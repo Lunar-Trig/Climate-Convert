@@ -11,6 +11,7 @@ html, body{
 
 h1{
     color:rgb(30, 161, 212);
+    font-size: larger;
 }
 
 body{
@@ -73,6 +74,10 @@ main{
 body{
     position: relative;
     bottom:8em;
+}
+
+#display-question{
+    font-size: 1.7em;
 }
 
 .game-quiz-container{
@@ -139,7 +144,8 @@ span label{
     justify-content: center;
     cursor: pointer;
     transition: transform 0.3s;
-    font-weight: 600;
+    font-size: larger;
+    font-weight: 800;
     color: white
 }
 
